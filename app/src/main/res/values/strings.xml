@@ -1,0 +1,73 @@
+<resources>
+    <string name="appName">DTT Android internship challenge</string>
+    <string name="titleActivityShowLocation">Map</string>
+    <string name="titleActivityMaps">Map</string>
+    <string name="infoLink">https://www.rsr.nl/index.php?page=privacy-wetgeving</string>
+    <string name="rsrPechhulp">RSR Pechhulp</string>
+    <string name="openCallDialogTitle">Bel RSR nu</string>
+    <string name="callButtonString">Bel nu</string>
+    <string name="overRSR">Over RSR</string>
+    <string name="mainToolbarText">RSR Revalidatieservice</string>
+    <string name="Annuleren">Annuleren</string>
+
+    <string name="tabletMapsInfo1">Neem contact op met RSR Nederland</string>
+    <string name="tabletMapsInfo2">9,4 cent per gesprek plus 2,8 cent per minuut, plus uw gebruikelijke Belkosten</string>
+    <string name="tabletMapsInfoTel">0900&#8211;7788990</string>
+
+
+    <string name="makePhoneCallDialNumber">3190077889900</string>
+    <string name="makePhoneCallTel">tel:</string>
+
+    <string name="infoDialogTitle">Privacybeleid</string>
+    <string name="infoDialogMessage">Om deze app te gebruiken, dient u het privacybeleid te accepteren:</string>
+    <string name="infoDialogPositiveButton">BEVESTIG</string>
+
+    <string name="getGPSLocationLogSetup">getGPSLocation: initialized Location updates</string>
+    <string name="getGPSLocationLogUpdate">getGPSLocation: updated location to </string>
+    <string name="getLocationPermissionLogGranted">MapActivity: LOCATION permission GRANTED</string>
+    <string name="getLocationPermissionLogDenied">MapActivity: LOCATION permission DENIED</string>
+    <string name="getPhoneCallPermissionLogGranted">getPhoneCallPermission: CALL permission GRANTED</string>
+    <string name="getPhoneCallPermissionLogDenied">getPhoneCallPermission: CALL permission DENIED</string>
+    <string name="networkAvailableLogCheck">networkAvailable: check if network is enabled</string>
+    <string name="networkAvailableLogWifiConnected">networkAvailable: WIFI network is CONNECTED</string>
+    <string name="networkAvailableLogMobileConnected">networkAvailable: MOBILE network is CONNECTED</string>
+    <string name="locationAvailableLogCheck">locationAvailable: checking if the location is enabled</string>
+    <string name="locationAvailableLogDisabled">locationAvailable: GPS location services are DISABLED</string>
+    <string name="locationAvailableLogEnabled">locationAvailable: GPS location services ENABLED</string>
+    <string name="showCurrentPlaceLogMarkerAdded">showCurrentPlace: added a new marker</string>
+    <string name="showCurrentPlaceLogPlaceFound">showCurrentPlace: found nearest place</string>
+    <string name="showCurrentPlaceLogPlaceName">showCurrentPlace: PlaceName: </string>
+    <string name="onRequestPermissionsResultLogLocationDenied">OnRequestPermissionsResult: all LOCATION permissions got DENIED</string>
+    <string name="onRequestPermissionsResultLogLocationGranted">OnRequestPermissionsResult: all LOCATION permissions got GRANTED</string>
+    <string name="onRequestPermissionsResultLogCallDenied">OnRequestPermissionsResult: CALL permission got DENIED</string>
+    <string name="onRequestPermissionsResultLogCallGranted">OnRequestPermissionsResult: CALL permission got GRANTED</string>
+
+    <string name="connectionDisabledDlgTitle">Netwerk is uitgeschakeld</string>
+    <string name="connectionDisabledDlgMessage">Uw netwerk is uitgeschkeld.
+        Schakel het alstublieft in om door te gaan.</string>
+
+    <string name="locationDisabledDlgTitle">GPS is uitgeschakeld</string>
+    <string name="locationDisabledDlgMessage">Uw GPS is uitgeschkeld.
+        Schakel het alstublieft in om door te gaan.</string>
+
+    <string name="buttonAanzetten">AANZETTEN</string>
+    <string name="buttonAnnuleren">ANNULEREN</string>
+
+    <string name="markerTitle">Uw Locatie: </string>
+    <string name="markerSnippet">Onthoud deze locatie voor het telefoongesprek</string>
+    <string name="infoDialogName">infoDialog</string>
+    <string name="connectionsDisabledDlgPos">connectionsDisabledDlgPos</string>
+    <string name="connectionsDisabledDlgNeg">connectionsDisabledDlgNeg</string>
+    <string name="locationDisabledDlgPos">locationDisabledDlgPos</string>
+    <string name="locationDisabledDlgNeg">locationDisabledDlgNeg</string>
+    <string name="openMapButtonView">contains the warning button</string>
+    <string name="infoImageButtonDesc">opens the info dialog</string>
+    <string name="backToMainButtonImageDesc">image for the back button</string>
+    <string name="openCallDialogViewDesc">opens the call dialog</string>
+    <string name="PechhulpBusLogoDesc">displays the larger Logo from RSR</string>
+    <string name="PechhulpRSRLogoDesc">Displays the text RSR</string>
+    <string name="leaveDialogButtonViewDesc">the image for the leaveDialog Button</string>
+    <string name="callDialogBtnText1">Belkosten</string>
+    <string name="CallDialogBtnTxt2">Voor dit nummer betaalt u uw gebruikelijke belkosten</string>
+    <string name="callButtonViewDesc">the Image for the call Button</string>
+</resources>

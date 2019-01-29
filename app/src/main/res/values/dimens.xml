@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <dimen name="zero">0dp</dimen>
+    <dimen name="toolbarTitleTablet">25sp</dimen>
+    <dimen name="TabletButtonWidth">280dp</dimen>
+    <dimen name="TabletButtonHeight">50dp</dimen>
+    <dimen name="TabletText">20sp</dimen>
+    <dimen name="ButtonViewSize">43dp</dimen>
+    <dimen name="infoImageButtonSize">30dp</dimen>
+    <dimen name="ButtonWidth">250dp</dimen>
+    <dimen name="ButtonHeight">42dp</dimen>
+    <dimen name="buttonViewSize">37dp</dimen>
+    <dimen name="buttonTextSize">16sp</dimen>
+</resources>

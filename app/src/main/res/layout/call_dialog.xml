@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:theme="@android:style/Theme.Translucent.NoTitleBar"
+    android:paddingBottom="10dp"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|start"
+            android:background="@color/colorPrimary">
+
+            <ImageView
+                android:id="@+id/leaveDialogButtonView"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:foregroundGravity="left"
+                android:src="@drawable/main_btn_close"
+                android:layout_gravity="start|center_vertical"
+                android:paddingStart="5dp"
+                android:paddingEnd="0dp"
+                android:contentDescription="@string/leaveDialogButtonViewDesc" />
+
+            <Button
+                android:id="@+id/leaveDialogButton"
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:background="@color/invisible"
+                android:paddingStart="20dp"
+                android:paddingEnd="0dp"
+                android:text="@string/Annuleren"
+                android:textAllCaps="false"
+                android:textColor="@color/title_color"
+                android:textSize="14sp"
+                android:singleLine="true" />
+        </FrameLayout>
+
+
+    <FrameLayout
+        android:layout_width="260dp"
+        android:layout_height="200dp"
+        android:background="@color/colorSecondaryTransparent"
+        android:layout_gravity="center">
+
+
+    <TextView
+        android:layout_gravity="center|top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/callDialogBtnText1"
+        android:textColor="@color/title_color"
+        android:textSize="19sp"
+        android:paddingTop="20dp"/>
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/CallDialogBtnTxt2"
+        android:textColor="@color/title_color"/>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_gravity="center|bottom"
+            android:background="@color/colorPrimary">
+
+            <Button
+                android:id="@+id/callButton"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:text="@string/callButtonString"
+                android:textAllCaps="false"
+                android:textColor="@color/title_color"
+                android:textSize="@dimen/buttonTextSize"
+                android:layout_margin="0dp"
+                android:layout_gravity="center"
+                android:background="@drawable/button_pressed_underline"/>
+
+            <ImageView
+                android:id="@+id/callButtonView"
+                android:layout_width="@dimen/ButtonViewSize"
+                android:layout_height="@dimen/buttonViewSize"
+                android:foregroundGravity="left|center_vertical"
+                android:src="@drawable/ic_btn_phone"
+                android:paddingStart="14dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="0dp"
+                android:paddingEnd="0dp"
+                android:contentDescription="@string/callButtonViewDesc" />
+
+        </FrameLayout>
+
+    </FrameLayout>
+    </LinearLayout>
+</LinearLayout>
+
